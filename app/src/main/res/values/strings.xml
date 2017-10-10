@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Magic Number V1.0</string>
-    <string name="strEnterValue">Saisir un nombre entre 1 et 100 :</string>
-    <string name="btnCompare">Comparer</string>
-    <string name="strCongratulation">Bravo vous avez trouvé le bon numéro!</string>
-    <string name="strCongartulations">Bravo, vous avez gagné après %d essais. Voulez-vous recommencer?</string>
-    <string name="strYes">Oui</string>
-    <string name="strNo">Non</string>
-    <string name="strGreater">Veuillez saisir une valeur plus grande!</string>
-    <string name="strLower">Veuillez saisir une valeur plus petite!</string>
+    <string name="strEnterValue">Please enter a value between 1 and 100:</string>
+    <string name="btnCompare">Compare</string>
+    <string name="strCongratulation">Congratulations, you found the correct number!</string>
+    <string name="strCongartulations">Congratulations, you win in %d times. Do you wont retry?</string>
+    <string name="strYes">Yes</string>
+    <string name="strNo">No</string>
+    <string name="strGreater">Please enter a greater value!</string>
+    <string name="strLower">Please enter a lower value!</string>
 </resources>
