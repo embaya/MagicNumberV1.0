@@ -8,4 +8,6 @@
     <string name="strNo">No</string>
     <string name="strGreater">Please enter a greater value!</string>
     <string name="strLower">Please enter a lower value!</string>
+    <string name="retry_menu">Retry</string>
+    <string name="exit_menu">Exit</string>
 </resources>
