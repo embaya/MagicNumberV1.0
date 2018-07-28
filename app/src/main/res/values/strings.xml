@@ -10,4 +10,5 @@
     <string name="strLower">Please enter a lower value!</string>
     <string name="retry_menu">Retry</string>
     <string name="exit_menu">Exit</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
 </resources>

@@ -1,5 +1,6 @@
 package fr.embaya.apps.magicnumberv10;
 
+import com.google.android.gms.ads.MobileAds;
 import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +13,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import com.google.android.gms.ads.AdRequest;
+
+import com.google.android.gms.ads.InterstitialAd;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private ProgressBar pbScore;
     private TextView lblResult;
     private TextView lblHistory;
+    private InterstitialAd mInterstitialAd;
 
     private int Score;
     private int SearchedValue;
@@ -56,9 +61,11 @@ public class MainActivity extends AppCompatActivity {
         lblHistory = (TextView) findViewById(R.id.lblHistory);
 
         btnValidate.setOnClickListener(btnCompareListener);
-
         init();
-
+        //MobileAds.initialize(this, "ca-app-pub-8755113615639032~5945370839");
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
     }
 
     private void init() {
